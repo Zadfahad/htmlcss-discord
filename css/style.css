@@ -22,6 +22,9 @@ html {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .col {
   float: left;
 
@@ -57,11 +60,10 @@ header {
 }
 .nav-center,
 .header-menu a {
-  text-decoration: none;
   font-size: 1em;
   color: inherit;
 }
-/* BUTTONS */
+/* <BUTTONS> */
 
 .nav-btn {
   text-align: right;
@@ -70,9 +72,53 @@ header {
   color: black;
   background-color: white;
   font-size: 0.9em;
-  text-decoration: none;
+}
+.btn-dark {
+  background-color: #23272a;
+  color: white;
 }
 .btn-small {
   padding: 0.6em 1em;
   border-radius: 50px;
+}
+.btn-large {
+  padding: 0.8em 1.5em;
+  border-radius: 50px;
+  display: inline-block;
+}
+.banner-content .buttons {
+  margin-top: 1em;
+}
+.banner-content .buttons :first-child {
+  margin-right: 1em;
+}
+.d-arrow {
+  font-size: 18px;
+}
+/* </BUTTONS> */
+
+/* MAIN */
+
+/* BANNER */
+.banner {
+  /* height: 400px; */
+  padding: 8.5em 0;
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-content {
+  width: 50%;
+  margin: auto;
+  color: white;
+  text-align: center;
+}
+.banner-content .banner-title {
+  font-size: 2.5em;
+  margin-bottom: 0.8em;
+}
+.text {
+  font-size: 0.9em;
+  line-height: 1.6em;
 }
