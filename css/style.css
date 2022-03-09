@@ -39,6 +39,7 @@ header {
 }
 .nav-logo img {
   vertical-align: middle;
+  height: 1.5em;
 }
 
 .nav-logo,
@@ -60,7 +61,18 @@ header {
   font-size: 1em;
   color: inherit;
 }
+/* BUTTONS */
 
 .nav-btn {
   text-align: right;
+}
+.btn-white {
+  color: black;
+  background-color: white;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+.btn-small {
+  padding: 0.6em 1em;
+  border-radius: 50px;
 }
