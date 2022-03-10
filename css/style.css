@@ -27,10 +27,6 @@ a {
 }
 .col {
   float: left;
-
-  /* test */
-  width: 60px;
-  height: 60px;
 }
 header {
   height: 60px;
@@ -121,4 +117,22 @@ header {
 .text {
   font-size: 0.9em;
   line-height: 1.6em;
+}
+
+/* <3-sections> */
+.three-sections {
+  padding: 2em;
+}
+.col-img {
+  width: 70%;
+}
+.col-text {
+  width: 30%;
+  margin-top: 2.5em;
+}
+.bg-grey {
+  background-color: #f6f6f6;
+}
+.title {
+  margin-bottom: 1em;
 }
