@@ -73,6 +73,10 @@ header {
   background-color: #23272a;
   color: white;
 }
+.btn-violet {
+  background-color: #8ea1e1;
+  color: white;
+}
 .btn-small {
   padding: 0.6em 1em;
   border-radius: 50px;
@@ -135,4 +139,19 @@ header {
 }
 .title {
   margin-bottom: 1em;
+  font-size: 2em;
+}
+.wave img {
+  display: block;
+}
+.wave-down img {
+  transform: rotate(180deg);
+}
+/* <>LAST SECTION */
+.tech-section {
+  padding: 3em 13em;
+}
+.title-last {
+  font-size: 1.6em;
+  text-align: center;
 }
